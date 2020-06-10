@@ -11,7 +11,7 @@
   Comportamento:
     vqv(Tunico, 30) // Retorna:
       'Oi, meu nome é Tunico!
-      tenho 30 anos,
+      Tenho 30 anos,
       trabalho na Trybe e mando muito em programação!
       #VQV!'
 */
