@@ -31,7 +31,7 @@ Você só deve alterar os arquivos indicados nos requisitos. **Os arquivos que n
 
 ### 1 - Implemente a função do arquivo `src/average.js`
 
-### 2 - Implemente os casos de teste no arquivo `tests/numbers.js`
+### 2 - Implemente os casos de teste no arquivo `tests/numbers.spec.js`
 
 ### 3 - Implemente a função do arquivo `src/vqv.js`
 
