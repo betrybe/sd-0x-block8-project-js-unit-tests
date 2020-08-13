@@ -129,8 +129,6 @@ Você só deve alterar os arquivos indicados nos requisitos. **Os arquivos que n
 
 ### DURANTE O DESENVOLVIMENTO
 
-* ⚠ **RECOMENDAMOS QUE VOCÊ FIQUE ATENTO ÀS ISSUES DO CODE CLIMATE, PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO. A PARTIR DO BLOCO 6 SEU PROJETO SOMENTE SERÁ AVALIADO SE NÃO TIVER ISSUES NO CODE CLIMATE!** ⚠
-
 * Faça `commits` das alterações que você fizer no código regularmente
 
 * Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
