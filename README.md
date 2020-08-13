@@ -4,56 +4,7 @@ Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora
 
 Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
 
-## O que deverá ser desenvolvido
-
-Você implementará várias funções para atender aos requisitos propostos e/ou testes unitários para garantir que as implementações das funções estão corretas.
-
----
-
-## Desenvolvimento
-
-Este repositório contém um _template_ de uma aplicação **NodeJS** (observe a existência do arquivo _package.json_).
-Após clonar o projeto e instalar as dependências (mais sobre isso abaixo), você não precisará realizar nenhuma configuração adicional.
-Todos os arquivos estritamente necessários para finalizar o projeto já estão criados, **não** sendo necessária a criação de outros arquivos.
-Você deverá completar as funções e testes unitários de forma a satisfazer os requisitos listados na próxima seção.
-
-As funções a serem implementadas estão dentro da pasta `src` e seus respectivos testes estão na pasta `tests`.
-O nome dos arquivos também seguem uma ordem definida. Basicamente, os arquivos de teste possuem o nome do arquivo alvo (arquivo da funcionalidade) acrescido do nome `.spec.js`.
-Existirá um arquivo `src/blabla.js` que conterá a implementação de uma função e um arquivo `tests/blabla.spec.js` com os testes unitários referentes à função presente no arquivo `src/blabla.js`.
-
-Cada função possui um bloco de comentários em suas primeiras linhas explicando qual é o trabalho que a função deve realizar.
-
-Você só deve alterar os arquivos indicados nos requisitos. **Os arquivos que não estão indicados nos requisitos não devem ser alterados, ou sua avaliação poderá ser comprometida.**
-
----
-
-## Requisitos do projeto
-
-### 1 - Implemente a função do arquivo `src/average.js`
-
-### 2 - Implemente os casos de teste no arquivo `tests/numbers.spec.js`
-
-### 3 - Implemente a função do arquivo `src/vqv.js`
-
-### 4 - Implemente os casos de teste no arquivo `tests/circle.spec.js`
-
-### 5 - Implemente a função do arquivo `src/createStudent.js`
-
-### 6 - Implemente os casos de teste no arquivo `tests/productDetails.spec.js`
-
-### 7 - Implemente a função do arquivo `src/objCalculator.js`
-
-### 8 - Implemente a função do arquivo `src/myCounter.js`
-
-**Agora prepare-se! Esse último requisito vai te guiar através de um longo e rico processo de desenvolvimento orientado a testes (Test Driven Development, ou TDD). Dará trabalho, mas vale a pena!**
-
-### 9 - Implemente os casos de teste no arquivo `tests/restaurant.spec.js` e as funções do arquivo `src/restaurant.js`
-
----
-
-## Instruções para entregar seu projeto
-
-### ANTES DE COMEÇAR A DESENVOLVER:
+### 🗒 ANTES DE COMEÇAR A DESENVOLVER:
 
 1. Clone o repositório
   * `git clone git@github.com:tryber/sd-0x-block8-project-js-unit-tests.git`.
@@ -105,9 +56,80 @@ module.exports = average
   * **Não se preocupe em preencher mais nada por enquanto!**
   * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-block8-project-js-unit-tests/pulls) e confira que o seu _Pull Request_ está criado
 
+## O que deverá ser desenvolvido
+
+Você implementará várias funções para atender aos requisitos propostos e/ou testes unitários para garantir que as implementações das funções estão corretas.
+
+---
+
+# Entregáveis
+
+Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório.
+
+Este _Pull Request_ deverá conter a implementação dos arquivos solicitados abaixo.
+
+---
+
+## Prazo para entrega
+
+O Prazo para entrega é de **7 dias corridos** após o último dia de projeto.
+
+**Exemplo:** Se o último dia de projeto aconteceu na **quarta-feira, dia 17 de junho**, seu prazo final de entrega será na **quarta-feira 24 de junho** às **14 horas**.
+
+Vale ressaltar que os projetos podem ter mais de um dia de duração, por isso o prazo de **7 dias** é contado à partir do último dia de projeto.
+
+## ⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
+
+Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, procure a Pessoa Instrutora que te acompanha.
+
+Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
+
+---
+
+## Desenvolvimento
+
+Este repositório contém um _template_ de uma aplicação **NodeJS** (observe a existência do arquivo _package.json_).
+Após clonar o projeto e instalar as dependências, você não precisará realizar nenhuma configuração adicional.
+Todos os arquivos estritamente necessários para finalizar o projeto já estão criados, **não** sendo necessária a criação de outros arquivos.
+Você deverá completar as funções e testes unitários de forma a satisfazer os requisitos listados na próxima seção.
+
+As funções a serem implementadas estão dentro da pasta `src` e seus respectivos testes estão na pasta `tests`.
+O nome dos arquivos também seguem uma ordem definida. Basicamente, os arquivos de teste possuem o nome do arquivo alvo (arquivo da funcionalidade) acrescido do nome `.spec.js`.
+Existirá um arquivo `src/exemplo.js` que conterá a implementação de uma função e um arquivo `tests/exemplo.spec.js` com os testes unitários referentes à função presente no arquivo `src/exemplo.js`.
+
+Cada função possui um bloco de comentários em suas primeiras linhas explicando qual é o trabalho que a função deve realizar.
+
+Você só deve alterar os arquivos indicados nos requisitos. **Os arquivos que não estão indicados nos requisitos não devem ser alterados, ou sua avaliação poderá ser comprometida.**
+
+---
+
+## Requisitos do projeto
+
+### 1 - Implemente a função do arquivo `src/average.js`
+
+### 2 - Implemente os casos de teste no arquivo `tests/numbers.spec.js`
+
+### 3 - Implemente a função do arquivo `src/vqv.js`
+
+### 4 - Implemente os casos de teste no arquivo `tests/circle.spec.js`
+
+### 5 - Implemente a função do arquivo `src/createStudent.js`
+
+### 6 - Implemente os casos de teste no arquivo `tests/productDetails.spec.js`
+
+### 7 - Implemente a função do arquivo `src/objCalculator.js`
+
+### 8 - Implemente a função do arquivo `src/myCounter.js`
+
+**Agora prepare-se! Esse último requisito vai te guiar através de um longo e rico processo de desenvolvimento orientado a testes (Test Driven Development, ou TDD). Dará trabalho, mas vale a pena!**
+
+### 9 - Implemente os casos de teste no arquivo `tests/restaurant.spec.js` e as funções do arquivo `src/restaurant.js`
+
 ---
 
 ### DURANTE O DESENVOLVIMENTO
+
+* ⚠ **RECOMENDAMOS QUE VOCÊ FIQUE ATENTO ÀS ISSUES DO CODE CLIMATE, PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO. A PARTIR DO BLOCO 6 SEU PROJETO SOMENTE SERÁ AVALIADO SE NÃO TIVER ISSUES NO CODE CLIMATE!** ⚠
 
 * Faça `commits` das alterações que você fizer no código regularmente
 
@@ -142,8 +164,6 @@ Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um vid
 
 ### REVISANDO UM PULL REQUEST
 
-⚠⚠⚠
+Use o conteúdo sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os _Pull Requests_.
 
-À medida que você e as outras pessoas que estudam na Trybe forem entregando os projetos, vocês receberão um alerta **via Slack** para também fazer a revisão dos _Pull Requests_ dos seus colegas. Fiquem atentos às mensagens do _"Pull Reminders"_ no _Slack_!
-
-Use o material que você já viu sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os projetos que chegaram para você.
+#VQV 🚀
