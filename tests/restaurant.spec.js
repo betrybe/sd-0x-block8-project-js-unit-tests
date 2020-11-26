@@ -52,23 +52,23 @@ const createMenu = require('../src/restaurant');
 describe('#createMenu', () => {
   it('tests the function has the correct behaviour', () => {
     assert.fail();
-    // TESTE 1: Verifique que, dado um objeto qualquer passado como um parâmetro para a função createMenu(), checa se o retorno da função é um objeto no seguinte formato: { fetchMenu: objetoQualquer }.
+    // TESTE 1: Verifique que, dado um objeto qualquer passado como um parâmetro para a função createMenu(), checa se o retorno da função é um objeto que contêm a chave `fetchMenu` e esta por sua vez tem como valor um objeto. Exemplo de retorno: { fetchMenu: objetoQualquer }.
     // ```
     // createMenu(objetoQualquer) // Retorno: { fetchMenu: objetoQualquer }
     // ```
     // Agora faça o PASSO 1 no arquivo `src/restaurant.js`.
     // --------------------------------------------------------------------------------------
-    // TESTE 2: Verifique que, dado que a função createMenu foi chamada com o objeto: `{ food: {}, drink: {} }`, verifique que 'objetoRetornado.fetchMenu' retorna um objeto cujas chaves são somente `food` e `drink`.
+    // TESTE 2: Verifique que, quando a função createMenu for chamada com o objeto: `{ food: {}, drink: {} }`, retorne um objeto dentro da propriedade `fetchMenu` que tenha somente as chaves `food` e `drink`. Exemplo de retorno: {fetchMenu: {food: {}, drink: {}}}
     // ```
     // const objetoRetornado = createMenu(objetoQualquer);
-    // objetoRetornado.fetchMenu // Retorno: { food: {}, drink: {}}
+    // objetoRetornado.fetchMenu // Valor: { food: {}, drink: {}}
     // ```
     // Agora faça o TESTE 3 deste arquivo.
     // --------------------------------------------------------------------------------------
-    // TESTE 3: Verifique que o menu passado pra função createMenu é identico ao menu recuperado pela função 'objetoRetornado.fetchMenu'
+    // TESTE 3: Verifique que o menu passado como parâmetro para a função createMenu é idêntico ao menu na propriedade `fetchMenu`, dentro do objeto retornado pela função. Ou seja, o valor ao acessar 'objetoRetornado.fetchMenu' deve ser exatamente o mesmo objeto menu passado por parâmetro.
     // ```
     // const objetoRetornado = createMenu(objetoQualquer);
-    // objetoRetornado.fetchMenu // Retorno: objetoQualquer
+    // objetoRetornado.fetchMenu // Valor: objetoQualquer
     // ```
     // Agora faça o TESTE 4 deste arquivo.
     // --------------------------------------------------------------------------------------
