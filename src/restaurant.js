@@ -25,7 +25,7 @@
   meuRestaurante.pay() // Retorno: 3.9
 
   Uma função createMenu retorna um objeto com as seguintes características:
-  - Uma chave `fetchMenu` retorna o objeto que a função `createMenu` recebe por parâmetro. O menu tem sempre duas chaves, `food` e `drink`, no seguinte formato:
+  - Uma chave `fetchMenu` associada a uma função, que retorna o objeto recebido por parâmetro na função `createMenu`. O menu tem sempre duas chaves, `food` e `drink`, no seguinte formato:
 
   const meuRestaurante = createMenu({
     food: {'coxinha': 3.90, 'sanduiche', 9.90},

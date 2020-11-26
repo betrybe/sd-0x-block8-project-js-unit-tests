@@ -29,7 +29,7 @@ const createMenu = require('../src/restaurant');
   meuRestaurante.pay() // Retorno: 3.9
 
   Uma função createMenu retorna um objeto com as seguintes características:
-  - Uma chave `fetchMenu` retorna o objeto que a função `createMenu` recebe por parâmetro. O menu tem sempre duas chaves, `food` e `drink`, no seguinte formato:
+  - Uma chave `fetchMenu` que tem uma função associada, esta por sua vez retorna o objeto recebido por parâmetro na função `createMenu`. O menu tem sempre duas chaves, `food` e `drink`, no seguinte formato:
 
   const meuRestaurante = createMenu({
     food: {'coxinha': 3.90, 'sanduiche', 9.90},
@@ -52,23 +52,24 @@ const createMenu = require('../src/restaurant');
 describe('#createMenu', () => {
   it('tests the function has the correct behaviour', () => {
     assert.fail();
-    // TESTE 1: Verifique que, dado um objeto qualquer passado como um parâmetro para a função createMenu(), checa se o retorno da função é um objeto que contêm a chave `fetchMenu` e esta por sua vez tem como valor um objeto. Exemplo de retorno: { fetchMenu: objetoQualquer }.
+    // TESTE 1: Verifique que, dado um objeto qualquer passado como um parâmetro para a função createMenu(), checa se o retorno da função é um objeto que contêm a chave `fetchMenu` e esta por sua vez tem como valor uma função que ao ser executada retorna um objeto qualquer. Exemplo de retorno: { fetchMenu: function }.
     // ```
-    // createMenu(objetoQualquer) // Retorno: { fetchMenu: objetoQualquer }
+    // const objetoRetornadoTeste1 = createMenu(objetoQualquer) // Retorno: { fetchMenu: function }
+    // const objetoRetornadoTeste1.fetchMenu() // retorno: objetoQualquer
     // ```
     // Agora faça o PASSO 1 no arquivo `src/restaurant.js`.
     // --------------------------------------------------------------------------------------
-    // TESTE 2: Verifique que, quando a função createMenu for chamada com o objeto: `{ food: {}, drink: {} }`, retorne um objeto dentro da propriedade `fetchMenu` que tenha somente as chaves `food` e `drink`. Exemplo de retorno: {fetchMenu: {food: {}, drink: {}}}
+    // TESTE 2: Verifique que, quando a função createMenu for chamada passando como parâmetro o objeto: `{ food: {}, drink: {} }`, retorne um objeto que ao executar a função associada a propriedade `fetchMenu` deste objeto, o retorno da função de ser um objeto que tenha somente as chaves `food` e `drink`.
     // ```
     // const objetoRetornadoTeste2 = createMenu(objetoQualquer);
-    // objetoRetornadoTeste2.fetchMenu // Valor: { food: {}, drink: {}}
+    // objetoRetornadoTeste2.fetchMenu() // retorno: { food: {}, drink: {}}
     // ```
     // Agora faça o TESTE 3 deste arquivo.
     // --------------------------------------------------------------------------------------
-    // TESTE 3: Verifique que o menu passado como parâmetro para a função createMenu é idêntico ao menu na propriedade `fetchMenu`, dentro do objeto retornado pela função. Ou seja, o valor ao acessar 'objetoRetornadoTeste3.fetchMenu' deve ser exatamente o mesmo objeto menu passado por parâmetro.
+    // TESTE 3: Verifique que o menu passado como parâmetro para a função createMenu é idêntico ao menu retornado pela função `fetchMenu`, dentro do objeto retornado pela função `createMenu`. Ou seja, o valor ao executar 'objetoRetornadoTeste3.fetchMenu()' deve ser exatamente o mesmo objeto menu passado por parâmetro.
     // ```
     // const objetoRetornadoTeste3 = createMenu(objetoQualquer);
-    // objetoRetornadoTeste3.fetchMenu // Valor: objetoQualquer
+    // objetoRetornadoTeste3.fetchMenu() // Retorno: objetoQualquer
     // ```
     // Agora faça o TESTE 4 deste arquivo.
     // --------------------------------------------------------------------------------------
