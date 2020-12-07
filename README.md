@@ -24,7 +24,11 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   - [Implemente a função average](#implemente-a-função-average)
   - [Implemente os casos de teste para a função numbers](#implemente-os-casos-de-teste-para-a-função-numbers)
   - [Implemente a função vqv](#implemente-a-função-vqv)
-  - [Implemente os casos de teste para a função circle](#4implemente-os-casos-de-teste-para-a-função-circle)
+  - [Implemente os casos de teste para a função circle](#implemente-os-casos-de-teste-para-a-função-circle)
+  - [Implemente os casos de teste para a função productDetails](#implemente-os-casos-de-teste-para-a-função-productDetails)
+  - [Implemente a função objCalculator](#Implemente-a-função-objCalculator)
+  - [Implemente a função myCounter](#implemente-a-função-myCounter)
+  - [Implemente os casos de teste no arquivo tests/restaurant.spec.js e as funções do arquivo src/restaurant.js](#implemente-os-casos-de-teste-no-arquivo-tests/restaurant.spec.js-e-as-funções-do-arquivo-src/restaurant.js)
 - [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
   - [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
@@ -169,14 +173,14 @@ Caso a função seja chamada sem nenhum parâmetro, o valor undefined deve ser r
 
 A função `circle` função recebe o raio de um círculo e retorna um objeto contendo suas informações (Raio, Área e Circunferência). Se não for especificado um raio, a função retorna `undefined`. Essa função já está implementada no arquivo `src/circle.js`. Escreva os testes para essa função para garantir que a implementação de `circle` está correta.
 
-### Implemente a função do arquivo `src/createStudent.js`
+### Implemente a função `createStudent`
 
 A função `createStudent` recebe como parâmetro um nome, e retorna um objeto contendo duas chaves:
     (1) name, contendo o nome passado como parâmetro;
     (2) feedback, contendo uma função que retorna a frase 'Eita pessoa boa!' ao ser chamada.
 O arquivo `createStudent.spec.js` contém os testes para `createStudent` já implementados. Implemente a função no arquivo `src/createStudent.js` de forma que ela atenda aos testes propostos.
 
-### Implemente os casos de teste no arquivo `tests/productDetails.spec.js`
+### Implemente os casos de teste para a função `productDetails`
 
 A função `productDetails` recebe duas strings que representam nomes de produtos, e retorna um array contendo dois objetos com os detalhes dos respectivos produtos:
 
@@ -198,9 +202,9 @@ productDetails('Alcool gel', 'Máscara') // Retorna:
   ]
 ```
 
-Essa função já está implementada no arquivo `src/productDetails.js`. Escreva os testes para essa função para garantir que a implementação de `productDetails` está correta.
+Essa função já está implementada no arquivo `src/productDetails.js`. Escreva os testes para essa função no arquivo `tests/productDetails.js` para garantir que a implementação de `productDetails` está correta.
 
-### Implemente a função do arquivo `src/objCalculator.js`
+### Implemente a função `objCalculator`
 Desenvolva um objeto calculator que possui quatro chaves:
   - add;
   - mult;
@@ -209,7 +213,7 @@ Desenvolva um objeto calculator que possui quatro chaves:
 
 Para cada uma delas atribua uma função que realiza a respectiva operação. A função deve receber dois inteiros e retornar um inteiro. Os resultados das divisões devem sempre ser arredondados para baixo. O arquivo `objCalculator.spec.js` contém os testes para `objCalculator` já implementados. Implemente a função no arquivo `src/objCalculator.js` de forma que ela atenda aos testes propostos.
 
-### Implemente a função do arquivo `src/myCounter.js`
+### Implemente a função `myCounter`
 A função myCounter possui dois loops aninhados que inserem valores dentro de um array. Como podemos perceber, eles vão adicionando valores ao array até sua condição de parada. Corrija a função `myCounter` para que a função retorne o array correto. O arquivo `myCounter.spec.js` contém os testes para `myCounter` já implementados. Implemente a função no arquivo `src/myCounter.js` de forma que ela atenda aos testes propostos. 
 
 ### Implemente os casos de teste no arquivo `tests/restaurant.spec.js` e as funções do arquivo `src/restaurant.js`
