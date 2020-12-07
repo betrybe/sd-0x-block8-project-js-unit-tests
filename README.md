@@ -13,7 +13,30 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 ## SUMÁRIO
 
-<!-- Adicionar sumario -->
+- [Habilidades](#habilidades)
+
+- [O que será desenvolvido](#o-que-será-desenvolvido)
+
+- [Data de entrega](#data-de-entrega)
+
+- [Como desenvolver](#como-desenvolver)
+  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
+
+- [Requisitos do projeto](#requisitos-do-projeto)
+  - [Code Climate](#code-climate)
+
+- [Lista de requisitos](#lista-de-requisitos)
+  - [Implemente a função average](#implemente-a-função-average)
+  - [Implemente os casos de teste para a função numbers](#implemente-os-casos-de-teste-para-a-função-numbers)
+  - [Implemente a função vqv](#implemente-a-função-vqv)
+  - [Implemente os casos de teste para a função circle](#4implemente-os-casos-de-teste-para-a-função-circle)
+
+- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
+  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
+  - [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
+  - [Revisando um Pull Request](#revisando-um-pull-request)
+
+- [Avisos finais](#avisos-finais)
 
 ---
 
@@ -128,15 +151,15 @@ Seu projeto só será avaliado se estiver passando pelos _checks_ do **CodeClima
 
 ### Lista de requisitos
 
-### Implemente a função do arquivo `src/average.js`
+### Implemente a função `average`
 
 A função average recebe um array (tamanho variável) e retorna a média dos valores recebidos. Caso a função receba algum valor não númerico ou um array vazio, o valor undefined deve ser retornado. Todos os resultados devem ser arredondados para valores inteiros. Ex: 4,6 vira 5; 1,3 vira 1. O arquivo `average.spec.js` contém os testes para `average` já implementados. Implemente a função no arquivo `src/average.js` de forma que ela atenda aos testes propostos.  
 
-### Implemente os casos de teste no arquivo `tests/numbers.spec.js`
+### Implemente os casos de teste para a função `numbers`
 
  A função `numbers` recebe um array (tamanho variável) e retorna true se todos os parâmetros forem do tipo 'number' e false caso contrário. Essa função já está implementada no arquivo `src/numbers.js`. Escreva os testes para essa função para garantir que a implementação de `numbers` está correta.
 
-### Implemente a função do arquivo `src/vqv.js`
+### Implemente a função `vqv`
 
 Use template literals para escrever uma função que recebe seu nome e sua idade e retorna o parágrafo descrito abaixo:
 
@@ -149,7 +172,7 @@ trabalho na Trybe e mando muito em programação!
 
 Caso a função seja chamada sem nenhum parâmetro, o valor undefined deve ser retornado. O arquivo `vqv.spec.js` contém os testes para `vqv` já implementados. Implemente a função no arquivo `src/vqv.js` de forma que ela atenda aos testes propostos.
 
-### Implemente os casos de teste no arquivo `tests/circle.spec.js`
+### Implemente os casos de teste para a função `circle`
 
 A função `circle` função recebe o raio de um círculo e retorna um objeto contendo suas informações (Raio, Área e Circunferência). Se não for especificado um raio, a função retorna `undefined`. Essa função já está implementada no arquivo `src/circle.js`. Escreva os testes para essa função para garantir que a implementação de `circle` está correta.
 
