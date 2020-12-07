@@ -14,28 +14,21 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 ## SUMÁRIO
 
 - [Habilidades](#habilidades)
-
 - [O que será desenvolvido](#o-que-será-desenvolvido)
-
 - [Data de entrega](#data-de-entrega)
-
 - [Como desenvolver](#como-desenvolver)
   - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-
 - [Requisitos do projeto](#requisitos-do-projeto)
   - [Code Climate](#code-climate)
-
 - [Lista de requisitos](#lista-de-requisitos)
   - [Implemente a função average](#implemente-a-função-average)
   - [Implemente os casos de teste para a função numbers](#implemente-os-casos-de-teste-para-a-função-numbers)
   - [Implemente a função vqv](#implemente-a-função-vqv)
   - [Implemente os casos de teste para a função circle](#4implemente-os-casos-de-teste-para-a-função-circle)
-
 - [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
   - [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
   - [Revisando um Pull Request](#revisando-um-pull-request)
-
 - [Avisos finais](#avisos-finais)
 
 ---
