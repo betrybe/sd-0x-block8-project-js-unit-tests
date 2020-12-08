@@ -57,7 +57,7 @@ Você implementará várias funções para atender aos requisitos propostos e/ou
 
   - Projeto individual;
 
-  - Serão um dia de projeto;
+  - Será um dia de projeto;
 
   - O projeto tem até a seguinte data: `DD/MM/YYYY - 14:00h` para ter entregue a avaliação final.
 
