@@ -28,7 +28,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   - [Implemente os casos de teste para a função productDetails](#implemente-os-casos-de-teste-para-a-função-productDetails)
   - [Implemente a função objCalculator](#Implemente-a-função-objCalculator)
   - [Implemente a função myCounter](#implemente-a-função-myCounter)
-  - [Implemente os casos de teste e as funções do arquivo src/restaurant.js](#implemente-os-casos-de-teste-e-as-funções-do-arquivo-src/restaurant.js)
+  - [Implemente os casos de teste e a função createMenu](#implemente-os-casos-de-teste-e-a-função-createMenu)
 - [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
   - [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
@@ -216,7 +216,7 @@ Para cada uma delas atribua uma função que realiza a respectiva operação. A 
 ### Implemente a função `myCounter`
 A função myCounter possui dois loops aninhados que inserem valores dentro de um array. Como podemos perceber, eles vão adicionando valores ao array até sua condição de parada. Corrija a função `myCounter` para que a função retorne o array correto. O arquivo `myCounter.spec.js` contém os testes para `myCounter` já implementados. Implemente a função no arquivo `src/myCounter.js` de forma que ela atenda aos testes propostos. 
 
-### Implemente os casos de teste e as funções do arquivo src/restaurant.js
+### Implemente os casos de teste e a função `createMenu`
 
 **Agora prepare-se! Esse último requisito vai te guiar através de um longo e rico processo de desenvolvimento orientado a testes (Test Driven Development, ou TDD). Dará trabalho, mas vale a pena!**
 
