@@ -63,9 +63,9 @@ Você implementará várias funções para atender aos requisitos propostos e/ou
 
 ---
 
-## Como desenvolver
+# Como desenvolver
 
-### Antes de começar a desenvolver:
+## Antes de começar a desenvolver:
 
 1. Clone o repositório
   * `git clone git@github.com:tryber/sd-0x-project-js-unit-tests.git`.
@@ -117,9 +117,58 @@ module.exports = average
   * **Não se preocupe em preencher mais nada por enquanto!**
   * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-js-unit-tests/pulls) e confira que o seu _Pull Request_ está criado
 
+## Instruções para entregar seu projeto:
+
+### Durante o desenvolvimento
+
+ ⚠ **PULL REQUESTS COM ISSUES NO CODE CLIMATE NÃO SERÃO AVALIADAS, ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠
+
+* Nos testes unitários que não estão implementados, vocês verão um `assert.fail();`. Esse código deve ser removido a partir do momento que vocês começarem a escrever o teste unitário. Ele só existe para fazer o teste falhar. Se o `assert.fail();` não estivesse nos blocos em que não há testes unitários implementados ainda, o teste iria passar com sucesso, pois não haveria nada para ser testado dentro.
+
+* Faça `commits` das alterações que você fizer no código regularmente
+
+* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
+
+* Os comandos que você utilizará com mais frequência são:
+  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
+  2. `git add` _(para adicionar arquivos ao stage do Git)_
+  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
+  4. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
+  5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
+  6. `npm test` _(executa todos os testes presentes na aplicação)_
+  7. `npm test path/to/file` _(executa apenas os testes presentes no arquivo path/to/file)_
+    * exemplo: `npm test tests/average.spec.js`
+  8. `jest path/to/file` _(executa apenas os testes presentes no arquivo path/to/file)_
+    * exemplo: `jest tests/average.spec.js`
+
 ---
 
-## Requisitos do projeto
+### Depois de terminar o desenvolvimento (OPCIONAL)
+
+Para **"entregar"** seu projeto, siga os passos a seguir:
+
+* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas
+  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
+  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
+  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-0x`
+
+Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
+
+⚠ Lembre-se que garantir que todas as _issues_ comentadas pelo CodeClimate estão resolvidas! ⚠
+
+---
+
+### Revisando um Pull Request
+
+À medida que você e as outras pessoas que estudam na Trybe forem entregando os projetos, vocês receberão um alerta via Slack para também fazer a revisão dos Pull Requests dos seus colegas. Fiquem atentos às mensagens do "Pull Reminders" no Slack!
+
+Use o material que você já viu sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os projetos que chegaram para você.
+
+Use o conteúdo sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os _Pull Requests_.
+
+---
+
+# Requisitos do projeto
 
 Este repositório contém um _template_ de uma aplicação **NodeJS** (observe a existência do arquivo _package.json_).
 Após clonar o projeto e instalar as dependências, você não precisará realizar nenhuma configuração adicional.
@@ -146,7 +195,7 @@ Seu projeto só será avaliado se estiver passando pelos _checks_ do **CodeClima
 
 ---
 
-### Lista de requisitos
+## Lista de requisitos
 
 ### Implemente a função `average`
 
@@ -243,57 +292,7 @@ A estrutura deste código e deste objeto já foi definida e você irá implement
 
 ---
 
-## Instruções para entregar seu projeto:
-
-### Durante o desenvolvimento
-
- ⚠ **PULL REQUESTS COM ISSUES NO CODE CLIMATE NÃO SERÃO AVALIADAS, ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠
-
-* Nos testes unitários que não estão implementados, vocês verão um `assert.fail();`. Esse código deve ser removido a partir do momento que vocês começarem a escrever o teste unitário. Ele só existe para fazer o teste falhar. Se o `assert.fail();` não estivesse nos blocos em que não há testes unitários implementados ainda, o teste iria passar com sucesso, pois não haveria nada para ser testado dentro.
-
-* Faça `commits` das alterações que você fizer no código regularmente
-
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-* Os comandos que você utilizará com mais frequência são:
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-  2. `git add` _(para adicionar arquivos ao stage do Git)_
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-  4. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-  5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-  6. `npm test` _(executa todos os testes presentes na aplicação)_
-  7. `npm test path/to/file` _(executa apenas os testes presentes no arquivo path/to/file)_
-    * exemplo: `npm test tests/average.spec.js`
-  8. `jest path/to/file` _(executa apenas os testes presentes no arquivo path/to/file)_
-    * exemplo: `jest tests/average.spec.js`
-
----
-
-### Depois de terminar o desenvolvimento (OPCIONAL)
-
-Para **"entregar"** seu projeto, siga os passos a seguir:
-
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-0x`
-
-Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
-⚠ Lembre-se que garantir que todas as _issues_ comentadas pelo CodeClimate estão resolvidas! ⚠
-
----
-
-### Revisando um Pull Request
-
-À medida que você e as outras pessoas que estudam na Trybe forem entregando os projetos, vocês receberão um alerta via Slack para também fazer a revisão dos Pull Requests dos seus colegas. Fiquem atentos às mensagens do "Pull Reminders" no Slack!
-
-Use o material que você já viu sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os projetos que chegaram para você.
-
-Use o conteúdo sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os _Pull Requests_.
-
----
-## Avisos finais
+# Avisos finais
 
 Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
 
