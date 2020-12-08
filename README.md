@@ -136,7 +136,7 @@ Você só deve alterar os arquivos indicados nos requisitos. **Os arquivos que n
 
 Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório. Este _Pull Request_ deverá conter a implementação dos arquivos solicitados abaixo.
 
-**⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️**. Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, procure a Pessoa Instrutora que te acompanha.
+**⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️**. Apesar de não ser necessário para ser aprovado no projeto, você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, procure a Pessoa Instrutora que te acompanha.
 
 Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
 
