@@ -25,6 +25,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   - [Implemente os casos de teste para a função numbers](#implemente-os-casos-de-teste-para-a-função-numbers)
   - [Implemente a função vqv](#implemente-a-função-vqv)
   - [Implemente os casos de teste para a função circle](#implemente-os-casos-de-teste-para-a-função-circle)
+  - [Implemente a função createStudent](#implemente-a-função-createStudent)
   - [Implemente os casos de teste para a função productDetails](#implemente-os-casos-de-teste-para-a-função-productDetails)
   - [Implemente a função objCalculator](#Implemente-a-função-objCalculator)
   - [Implemente a função myCounter](#implemente-a-função-myCounter)
