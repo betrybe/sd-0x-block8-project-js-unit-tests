@@ -1,6 +1,3 @@
-/* eslint-disable max-len*/
-/* eslint-disable no-unused-vars */
-
 const assert = require('assert');
 const productDetails = require('../src/productDetails');
 
@@ -31,8 +28,8 @@ const productDetails = require('../src/productDetails');
   OBS: Lembre-se que você não precisa se preocupar com o describe e o it por enquanto, isso será aprendido posteriormente.
 */
 
-describe('#productDetails', () => {
-  it('tests the function has the correct behaviour', () => {
+describe('6 - Implemente os casos de teste para a função `productDetails`', () => {
+  it('Verifica se a função `productDetails` tem o comportamento esperado', () => {
     assert.fail();
     // ESCREVA SEUS TESTES ABAIXO:
     // Teste que o retorno da função é um array.
