@@ -1,7 +1,6 @@
 on:
   pull_request:
     types: [opened, synchronize]
-
 jobs:
   eslint:
     runs-on: ubuntu-18.04
@@ -10,8 +9,8 @@ jobs:
       - uses: actions/setup-node@v1.4.4
         with:
           node-version: '12'
-      - name: EsLint
-        uses: betrybe/eslint-linter-action@v2.1
+      - name: ESLint
+        uses: betrybe/eslint-linter-action@v2.2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -20,16 +19,16 @@ jobs:
     name: Evaluator job
     needs: [eslint]
     steps:
-      - name: Jest evaluator step
+      - uses: actions/checkout@v2
+      - name: Evaluator step
         id: test
-        uses: betrybe/jest-evaluator-action@v5
+        uses: betrybe/jest-evaluator-action@v7
         with:
           repository-test-name: 'betrybe/sd-0x-project-js-unit-tests-tests'
           repository-test-branch: 'master'
-        if: steps.wait-for-build.outputs.conclusion == 'success'
       - name: Store evaluation step
         uses: betrybe/store-evaluation-action@v2
         with:
           evaluation-data: ${{ steps.test.outputs.result }}
           environment: staging
-          pr-number: ${{ steps.test.outputs.pr-number }}
+          pr-number: ${{ github.event.number }}
