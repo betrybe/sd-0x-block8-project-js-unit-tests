@@ -4,7 +4,7 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e
 
 # Boas vindas ao repositório do projeto de ES6 e Testes Unitários!
 
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
+Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Atenção a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
 
 Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
 
@@ -24,18 +24,18 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
 - [Como desenvolver](#como-desenvolver)
-  - [EsLint](#eslint)
+  - [ESLint](#eslint)
 - [Requisitos do projeto](#requisitos-do-projeto)
 - [Lista de requisitos](#lista-de-requisitos)
-  - [Implemente a função average](#implemente-a-função-average)
-  - [Implemente os casos de teste para a função numbers](#implemente-os-casos-de-teste-para-a-função-numbers)
-  - [Implemente a função vqv](#implemente-a-função-vqv)
-  - [Implemente os casos de teste para a função circle](#implemente-os-casos-de-teste-para-a-função-circle)
-  - [Implemente a função createStudent](#implemente-a-função-createStudent)
-  - [Implemente os casos de teste para a função productDetails](#implemente-os-casos-de-teste-para-a-função-productDetails)
-  - [Implemente a função objCalculator](#Implemente-a-função-objCalculator)
-  - [Implemente a função myCounter](#implemente-a-função-myCounter)
-  - [Implemente os casos de teste e a função createMenu](#implemente-os-casos-de-teste-e-a-função-createMenu)
+  - [Implemente a função average](#1---implemente-a-função-average)
+  - [Implemente os casos de teste para a função numbers](#2---implemente-os-casos-de-teste-para-a-função-numbers)
+  - [Implemente a função vqv](#3---implemente-a-função-vqv)
+  - [Implemente os casos de teste para a função circle](#4---implemente-os-casos-de-teste-para-a-função-circle)
+  - [Implemente a função createStudent](#5---implemente-a-função-createstudent)
+  - [Implemente os casos de teste para a função productDetails](#6---implemente-os-casos-de-teste-para-a-função-productdetails)
+  - [Implemente a função objCalculator](#7---implemente-a-função-objcalculator)
+  - [Implemente a função myCounter](#8---implemente-a-função-mycounter)
+  - [Implemente os casos de teste e a função createMenu](#9---implemente-os-casos-de-teste-e-a-função-createmenu)
 - [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
 - [Revisando um pull request](#revisando-um-pull-request)
 - [Avisos finais](#avisos-finais)
@@ -95,9 +95,9 @@ Você implementará várias funções para atender aos requisitos propostos e/ou
 ## Antes de começar a desenvolver:
 
 1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-0x-project-js-unit-tests-rubric.git`.
+  * `git clone git@github.com:tryber/sd-0x-project-js-unit-tests.git`.
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-0x-project-js-unit-tests-rubric`
+    * `cd sd-0x-project-js-unit-tests`
 
 2. Instale as dependências
   * `npm install`
@@ -136,13 +136,13 @@ module.exports = average
   * Usando o exemplo anterior: `git push -u origin joaozinho-js-unit-tests`
 
 7. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-js-unit-tests-rubric/pulls)
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-js-unit-tests/pulls)
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   * Clique no botão verde _"Create pull request"_
   * Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
   * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-js-unit-tests-rubric/pulls) e confira que o seu _Pull Request_ está criado
+  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-js-unit-tests/pulls) e confira que o seu _Pull Request_ está criado
 
 ---
 
