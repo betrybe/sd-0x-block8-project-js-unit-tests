@@ -43,6 +43,7 @@ const getCharacter = require('../src/getCharacter');
 
 describe('8 - Implemente os casos de teste para a função `getCharacter`', () => {
   it('Verifica se a função `getCharacter` retorna o objeto do personagem corretamente.', () => {
+    assert.fail();
     // ESCREVA SEUS TESTES ABAIXO:
     // Teste se a função, quando não recebe nenhum parâmetro, retorna undefined.
     // Teste se a função retorna o objeto correto para o parâmetro 'Arya',
