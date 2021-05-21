@@ -41,7 +41,7 @@ const getCharacter = require('../src/getCharacter');
   OBS: Lembre-se que você não precisa se preocupar com o describe e o it por enquanto, isso será aprendido posteriormente.
 */
 
-describe('8 - Implemente os casos de teste para a função `getCharacter`', () => {
+describe('9 - Implemente os casos de teste para a função `getCharacter`', () => {
   it('Verifica se a função `getCharacter` retorna o objeto do personagem corretamente.', () => {
     assert.fail();
     // ESCREVA SEUS TESTES ABAIXO:
