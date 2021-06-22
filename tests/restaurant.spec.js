@@ -46,7 +46,7 @@ const createMenu = require('../src/restaurant');
   OBS: Lembre-se que você não precisa se preocupar com o describe e o it por enquanto, isso será aprendido posteriormente.
 */
 
-describe('10 - Implemente os casos de teste e a função `createMenu`', () => {
+describe('9 - Implemente os casos de teste e a função `createMenu`', () => {
   it('Verifica se a função `createMenu` tem o comportamento esperado', () => {
     assert.fail();
     // TESTE 1: Verifique se o retorno da função createMenu() é um objeto que possui, 
