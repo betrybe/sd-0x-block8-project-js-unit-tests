@@ -64,7 +64,7 @@ Você implementará várias funções para atender aos requisitos propostos e/ou
 
 ---
 
-## Desenvolvimento
+### Desenvolvimento
 
 * Nos testes unitários que não estão implementados, vocês verão um `assert.fail();`. Esse código deve ser removido a partir do momento que vocês começarem a escrever o teste unitário. Ele só existe para fazer o teste falhar. Se o `assert.fail();` não estivesse nos blocos em que não há testes unitários implementados ainda, o teste iria passar com sucesso, pois não haveria nada para ser testado dentro.
 
@@ -75,7 +75,7 @@ Você implementará várias funções para atender aos requisitos propostos e/ou
 
 ---
 
-## Data de entrega
+### Data de entrega
 
 - Projeto individual;
 - Será um dia de projeto;
@@ -157,7 +157,7 @@ module.exports = average
 
 ---
 
-### Como desenvolver
+## Como desenvolver
 
 Este repositório contém um _template_ de uma aplicação **NodeJS** (observe a existência do arquivo _package.json_). Após clonar o projeto e instalar as dependências, você não precisará realizar nenhuma configuração adicional. Todos os arquivos estritamente necessários para finalizar o projeto já estão criados, **não** sendo necessária a criação de outros arquivos. Você deverá completar as funções e testes unitários de forma a satisfazer os requisitos listados na seção **Lista de requisitos**.
 
@@ -404,7 +404,7 @@ Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus co
 
 Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
 
-### Revisando um pull request
+## Revisando um pull request
 
 Use o conteúdo sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os _Pull Requests_.
 
