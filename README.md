@@ -331,9 +331,9 @@ getCharacter('Arya');
 
 ```javascript
 {
-  name: 'Arya',
-  class: 'Rogue' ,
-  phrases: ['Not today', 'A girl has no name.']
+  name: 'Arya Stark',
+  class: 'Rogue',
+  phrases: ['Not today', 'A girl has no name.'],
 }
 ```
 
