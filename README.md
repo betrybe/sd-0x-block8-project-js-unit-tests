@@ -333,7 +333,7 @@ getCharacter('Arya');
 {
   name: 'Arya Stark',
   class: 'Rogue',
-  phrases: ['Not today', 'A girl has no name.'],
+  phrases: ['Not today', 'A girl has no name.']
 }
 ```
 
